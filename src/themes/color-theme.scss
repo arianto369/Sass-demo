@@ -1,0 +1,61 @@
+@use "../base/colors" as *;
+
+ul.purple-theme{
+  background-color: $purple;
+}
+
+ul.pink-theme{
+  background-color: $pink;
+}
+
+ul.blue-theme{
+  background-color: $blue;
+}
+
+span.purple-theme {
+  color: $purple;
+}
+
+span.pink-theme {
+  color: $pink;
+}
+
+span.blue-theme {
+  color: $blue;
+}
+
+.hero-container.purple-theme {
+  border-top: 3px solid $purple;
+}
+
+.hero-container.pink-theme {
+  border-top: 3px solid $pink;
+}
+
+.hero-container.blue-theme {
+  border-top: 3px solid $blue;
+}
+
+a.purple-theme {
+  background-color: $purple;
+}
+
+a.pink-theme {
+  background-color: $pink;
+}
+
+a.blue-theme {
+  background-color: $blue;
+}
+
+a.purple-theme{
+  outline: 1px solid $purple;
+}
+
+a.pink-theme{
+  outline: 1px solid $pink;
+}
+
+a.blue-theme{
+  outline: 1px solid $blue;
+}

@@ -1,0 +1,23 @@
+@use '../base/colors' as *;
+@use '../utils/mixins.scss' as *;
+
+ul.sidebar {
+  @include column-center;
+  
+  width: 100px;
+  height: 70%;
+  color: #fff;
+  list-style: none;
+  gap: 2rem;
+  border-radius: 0 1rem 1rem 0;
+
+  li {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+  }
+
+  li:hover {
+    transform: scale(1.5);
+  }
+}
